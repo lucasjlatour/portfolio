@@ -1,0 +1,67 @@
+/*Global styles*/
+* {
+    box-sizing: border-box;
+}
+
+/*Body and section styles*/
+body  {
+    width: 80%;
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5em;
+}
+
+header, footer {
+    background-color: darkslategray;
+}
+
+address {
+    font-style: normal;
+}
+
+
+/*Headings, images, paragaphs*/
+h1 {
+    font-size: xx-large;
+    line-height: 1.5em;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+p {
+    width: 300px;
+}
+
+footer p{
+    width: 100%;
+    text-align: center;
+}
+
+/*Link styles*/
+a {
+    display: block;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    color: rgb(0, 0, 167);
+}
+
+a:active {
+    color: rgb(76, 76, 151);
+}
+
